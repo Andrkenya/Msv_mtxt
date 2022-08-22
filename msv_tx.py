@@ -31,6 +31,8 @@ for i in range(50):
                 
 
                     details =[title, heading, content]
+                    
+                    
                     thewriter.writerow(details)
                     i = i+1
                     #for variable j

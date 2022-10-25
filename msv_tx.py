@@ -24,7 +24,7 @@ for i in range(50):
             thewriter.writerow(header)
 
             for item in info:
-                    #content to be located
+                    #content to be fetched
                     title = item.find('h1').text.replace('\n', '')
                     heading = item.find('span', {'class': 'heading'}).text.replace('\n', '')
                     content = item.find('div', {'class': 'version vid1423 iso6393lug'}).text.replace('\n', '')
@@ -37,3 +37,4 @@ for i in range(50):
                     i = i+1
                     #for variable j
                      j = j+1
+       #Render checks to th fetched data
